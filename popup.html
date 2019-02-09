@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Memeoji</title>
+	<style type="text/css">
+		.button-insert{
+			width: 50px;
+			height: 30px;
+			cursor: pointer;
+			background-color: #abc;
+			padding: 10px;
+		}
+		.button-insert:hover{
+			background-color: #bbb;
+		}
+	</style>
+	<script type="text/javascript" src="socket.io.js"></script>
+	<script type="text/javascript" src="popup.js"></script>
+</head>
+<body>
+
+	<h3>Insert Farnam Everywhere!</h3>
+
+	<button class="button-insert" id="insert-button">INSERT</button>
+	<button id="popup">More options</button>
+
+	<p id="num-images-changed">0</p>
+
+</body>
+</html>

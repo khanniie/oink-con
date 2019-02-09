@@ -1,0 +1,23 @@
+{
+	"name":"Image Manipulator",
+	"description":"changes images on a webpage",
+	"version":"1.0",
+	"manifest_version":2,
+	"permissions":[
+		"activeTab",
+		"storage"
+	],
+	"browser_action":{
+		"default_popup":"popup.html"
+	},
+	"background":{
+		"scripts":["backgroundScripts.js"],
+		"persistent":true
+	},
+	"content_scripts":[
+		  {
+    		"matches": ["*://*/*"],
+    		"js": ["socket.io.js", "contentScripts.js"]
+  		}
+	]
+}

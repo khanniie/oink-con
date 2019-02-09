@@ -1,6 +1,9 @@
 img{
+    position: absolute;
     padding-top: 20%;
-    width: 92%;
+    width: 80%;
+    margin-left: 3%;
+    bottom: 10%;
 }
 body{
     padding-top: 4%;
@@ -10,15 +13,62 @@ body{
 
 }
 
+.detail{
+    position: relative;
+    width: 85%;
+    left: 15%;
+}
+
+#addblocktag{
+    background-color: transparent;
+    border: 0px;
+    color: #333;
+    font-weight: 800;
+    font-size: 2em;
+}
+
+#addurl{
+
+    background-color: transparent;
+    border: 0px;
+    color: #333;
+    font-weight: 800;
+    font-size: 2em;
+
+}
+
+.textinput_short{
+    width: 90%;
+    background-color: transparent;
+    border: 0px;
+    border-bottom: 1px solid #333;
+}
+
 form{
     padding-top: 4%;
+    padding-bottom: 2em;
+}
+
+h3{
+    padding-bottom: 0.3em;
+    border-bottom: 4px solid #ed9eb277;
+    font-weight: 700;
 }
 
 .col-sm-4{
+    height: 100%;
     position: fixed;
     left: 3%;
-    bottom: 6%;
+    
     width: 30%;
+}
+
+.col-sm-4 h2{
+    padding: 5%;
+    font-weight: 700;
+    color: #333;
+    position: absolute;
+    top: 3%;
 }
 
 .bord {
@@ -32,7 +82,7 @@ form{
 }
 
 .textinput{
-    height: 2.3em;
+    height: 2em;
     background-color: transparent;
     border: 0px;
     border-bottom: 1px solid black;
@@ -41,7 +91,8 @@ form{
 
 .sent-mail{
     position: absolute;
-    right: 2em;
+    bottom: calc(5% + 1em);
+    right: 3.3em;
 }
 .sent-mail img{
     width: 1.5em;
@@ -51,8 +102,9 @@ form{
 /*    background-color: #ed9eb233;*/
     color: #444;
     padding: 3%;
-    padding-bottom: 1%;
+    padding-bottom: 5%;
     font-size: 23px;
+
 }
 
 .switch{
@@ -61,6 +113,7 @@ form{
 
 label{
     padding-bottom: 0.5em;
+
 }
 
 /* The switch - the box around the slider */
@@ -124,4 +177,8 @@ input:checked + .slider:before {
 
 .slider.round:before {
   border-radius: 50%;
+}
+
+#messageus{
+    margin-bottom: 4em;
 }

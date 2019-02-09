@@ -1,6 +1,3 @@
-//import * as socket from './socket.io.js';
-
-
 var backgroundPage;
 var numImagesChanged = 0;
 var numImageChagedView;

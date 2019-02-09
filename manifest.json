@@ -1,6 +1,6 @@
 {
-	"name":"Image Manipulator",
-	"description":"changes images on a webpage",
+	"name":"Oink: Web Accessibility",
+	"description":"A suite of accessibility tools!",
 	"version":"1.0",
 	"manifest_version":2,
 	"permissions":[
@@ -9,6 +9,7 @@
 		"storage"
 	],
 	"browser_action":{
+		"default_icon":"piggy.png",
 		"default_popup":"popup.html"
 	},
 	"background":{
@@ -20,5 +21,6 @@
     		"matches": ["*://*/*"],
     		"js": ["socket.io.js", "contentScripts.js"]
   		}
-	]
+	],
+	"web_accessible_resources": ["pig.png"]
 }

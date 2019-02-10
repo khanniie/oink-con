@@ -13,6 +13,7 @@ Oink's capabilities:
 * detecting audio playing on a website;
 * filtering out content that the user specifies he/she is sensitive to.
 
+View Oink in action in this [video](https://www.youtube.com/watch?v=UC7Qx7Mx8To&feature=youtu.be)!
 See more [here](https://docs.google.com/presentation/d/16LmteR5B6sCeit7VjSAsg7rtVHNMzCgg-2FSopRrvYI/edit?usp=sharing) to understand how Oink works, capabilities, as well as what features we wanted to implement. 
 
 We used this [bad site](https://github.com/meganung/badsite-example) to demo some of the many capabilities of Oink! 

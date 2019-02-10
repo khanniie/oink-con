@@ -19,12 +19,12 @@ See more [here](https://docs.google.com/presentation/d/16LmteR5B6sCeit7VjSAsg7rt
 
 * [Google Cloud Vision API](https://cloud.google.com/vision/) - Image Labeling
 * [Chrome Extension](https://developer.chrome.com/extensions/devguide)
-* [HTML, CSS, JavaScript]
+* HTML, CSS, JavaScript
 * [NodeJS](https://nodejs.org/en/) - backend
 * [Socket.io](https://socket.io/) - backend
 * [DigitalOcean](https://www.digitalocean.com/) - backend server
 * [Procreate](https://procreate.art/) - assets
-* [Photoshop] - assets
+* [Photoshop](https://www.adobe.com/products/photoshop.html) - assets
 
 ## Authors
 
